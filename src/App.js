@@ -16,9 +16,10 @@ function App() {
     }
   };
 
+
   return (
     <div className="App">
-      <h1>Financial Calculator</h1>
+      <h1>Financial Finito App</h1>
       <CalculatorForm onCalculate={calculate} />
       {result && <ResultDisplay result={result} />}
     </div>
